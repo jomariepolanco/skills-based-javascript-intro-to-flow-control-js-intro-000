@@ -1,6 +1,6 @@
 function basicTeenager(age) {
   if (age < 19 && age > 13) {
-    return "You are a teenager!"
+    console.log("You are a teenager!")
   }
 }
 
@@ -13,7 +13,13 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-
+  if (age < 19 && age > 13) {
+    console.log("You are a teenager!")
+  } else if (age <= 12) {
+    console.log("You are a kid")
+  } else if (age > 19) {
+    console.log("You are a grownup")
+  }
 }
 
 function ternaryTeenager(age) {
